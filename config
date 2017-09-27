@@ -33,7 +33,7 @@ hide_edge_borders smart
 new_window 1pixel
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec --no-startup-id urxvt
 
 # kill focused window
 bindsym $mod+q kill
