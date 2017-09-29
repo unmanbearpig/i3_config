@@ -20,6 +20,10 @@ block = "cpu"
 interval = 1
 
 [[block]]
+block = "battery"
+interval = 10
+
+[[block]]
 block = "load"
 interval = 1
 format = "{1m}"
