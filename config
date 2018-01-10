@@ -180,8 +180,8 @@ exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelt
 
 # audio volume
 
-bindsym XF86AudioRaiseVolume exec amixer -q set Headphone 5+ unmute
-bindsym XF86AudioLowerVolume exec amixer -q set Headphone 5- unmute
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
 bindsym XF86AudioMute exec amixer -q set Master toggle
 
 bindsym XF86MonBrightnessUp exec xbacklight -inc 4 -time 0
