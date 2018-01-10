@@ -183,3 +183,6 @@ exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelt
 bindsym XF86AudioRaiseVolume exec amixer -q set Headphone 5+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Headphone 5- unmute
 bindsym XF86AudioMute exec amixer -q set Master toggle
+
+bindsym XF86MonBrightnessUp exec xbacklight -inc 4 -time 0
+bindsym XF86MonBrightnessDown exec xbacklight -dec 4 -time 0
