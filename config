@@ -177,6 +177,7 @@ bar {
 
 # init commands
 exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111
+exec setxkbmap -option ctrl:nocaps
 
 # audio volume
 
