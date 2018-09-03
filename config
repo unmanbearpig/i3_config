@@ -37,6 +37,7 @@ bindsym $mod+Return exec --no-startup-id gnome-terminal
 
 # kill focused window
 bindsym $mod+q kill
+bindsym $mod+w kill
 
 # start dmenu (a program launcher)
 bindsym $mod+x exec dmenu_run
