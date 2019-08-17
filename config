@@ -164,7 +164,7 @@ bar {
 #     font pango:DejaVu Sans Mono, FontAwesome 9
       font pango:DejaVu Sans Mono, Icons 9
 #       position top
-      status_command ~/projects/stuff/i3status-rust/target/release/i3status-rs ~/.config/i3/i3status-rust.toml
+      status_command ~/software/i3status-rust/target/release/i3status-rs ~/.config/i3/i3status-rust.toml
       mode hide
       colors {
             separator #666666
