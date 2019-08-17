@@ -183,6 +183,9 @@ exec setxkbmap -option ctrl:nocaps
 exec xset r rate 300 90
 exec xsetroot -solid "#000"
 
+exec "setxkbmap -layout dvorak,ru"
+exec "setxkbmap -option grp:win_space_toggle -option ctrl:nocaps"
+
 # audio volume
 
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
