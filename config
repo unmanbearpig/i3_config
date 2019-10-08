@@ -180,6 +180,9 @@ bar {
       }
 }
 
+bindsym $mod+b bar mode hide
+bindsym $mod+Shift+b bar mode invisible
+
 # init commands
 exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111
 exec setxkbmap -option ctrl:nocaps
