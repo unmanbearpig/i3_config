@@ -37,6 +37,7 @@ new_window none
 # start a terminal
 # bindsym $mod+Return exec --no-startup-id urxvt
 bindsym $mod+Return exec --no-startup-id "st -e bash --login"
+bindsym $mod+Ctrl+Return exec --no-startup-id "firefox-trunk"
 
 # kill focused window
 bindsym $mod+q kill
