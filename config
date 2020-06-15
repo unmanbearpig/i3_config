@@ -198,8 +198,10 @@ exec "setxkbmap -option grp:win_space_toggle -option ctrl:nocaps"
 
 # audio volume
 
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+# ALSA
+bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 1dB+
+bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 1dB-
+
 bindsym XF86AudioMute exec amixer -q set Master toggle
 
 bindsym XF86MonBrightnessUp exec xbacklight -inc 4 -time 0
