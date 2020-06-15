@@ -35,7 +35,8 @@ hide_edge_borders smart
 new_window none
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id urxvt
+# bindsym $mod+Return exec --no-startup-id urxvt
+bindsym $mod+Return exec --no-startup-id "st -e bash --login"
 
 # kill focused window
 bindsym $mod+q kill
